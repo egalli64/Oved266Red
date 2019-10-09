@@ -1,0 +1,32 @@
+input {
+	color: black;
+}
+
+.content {
+	
+	text-align: center;
+	font-family: book-antiqua;
+	margin: 40px auto;
+	background-image: url("/Oved266Red/pic/sfondoIndex.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	max-width: 960px;
+	border-radius: 5px;
+	padding-bottom: 32px;
+}
+div{
+		font-family: book-antiqua;
+		color:white;
+}
+
+h1, h2, h3 {
+	font-family: book-antiqua;
+	color: white;
+}
+
+#psw {
+	color: white;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/ticket.css" />
+<title>First HTML project</title>
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/Oved266Red/js/table.js"></script>
+</head>
+<body>
+
+	<h1>RED'S TRAINS s.r.l. &reg;</h1>
+	<hr />
+	<form action="/comment" method="post">
+		<div>
+
+			<label for="name">Administrator_id:</label> <input type="text"
+				id="name" name="sender" required>
+
+		</div>
+		<div>
+
+			<label for="password">Password:</label> <input type="password"
+				id="password" name="pwd" maxlength="30" required>
+
+		</div>
+		<div>
+			<button type="submit">Login</button>
+		</div>
+		<hr />
+		<p>
+			Visualizza la nostra <a
+				href="http://localhost:8082/Oved266Red/timeTable.html">tabella</a>
+			e decidi quando partire.
+		</p>
+	</form>
+
+	<h1>PREVENTIVO DI VIAGGIO</h1>
+	<form action="/comment" method="post">
+		<div>
+			<p id="msg1">
+				CLASSE SELEZIONATA <b>PRIMA</b>
+			</p>
+			<input type="button" value=" Seleziona la classe " id="changeMsg1">
+
+		</div>
+
+
+
+		<div>
+
+			<p>Seleziona la tua tratta</p>
+			<select name="os">
+				<option value="none">-</option>
+				<option value="Mi-Ro">Mi-Ro</option>
+				<option value="Mi-Fi">Mi-Fi</option>
+				<option value="Mi-Rc">Mi-Rc</option>
+				<option value="Mi-Ba">Mi-Ba</option>
+				<option value="Mi-Ge">Mi-Ge</option>
+				<option value="Ro-Mi">Ro-Mi</option>
+				<option value="Fi-Mi">Fi-Mi</option>
+				<option value="Rc-Mi">Rc-Mi</option>
+				<option value="Ba-Mi">Ba-Mi</option>
+				<option value="Ge-Mi">Ge-Mi</option>
+			</select>
+
+		</div>
+		<div>
+			Data andata: <input type="date" name="partenza" required
+				placeholder="seleziona la data " />
+		</div>
+		<div>
+			Data ritorno: <input type="date" name="arrivo"
+				placeholder="seleziona la data " />
+		</div>
+		<div>
+			<input type="radio" id="favJ" name="andataritorno" value="andata"
+				checked /> <label for="andataritorno">Andata</label> <input
+				type="radio" id="favPy" name="andataritorno"
+				value="andata e ritorno" /> <label for="andataritorno">Andata
+				e Ritorno</label>
+		</div>
+		<div>
+			<button type="submit">GO!</button>
+		</div>
+	</form>
+
+
+	<hr>
+	<p>Titolo di viaggio non rimborsabile , per eventuali lamentele
+		rivolgiti ai nostri dipendenti.</p>
+
+	<p>
+		<a href="mailto:LucyLucy@redtrain.com"> scrivi una mail per ogni
+			tua esigenza</a>
+	</p>
+
+	<h4>
+		Per abbonamenti , rimborsi , informazioni , vieni a trovarci nella
+		nostra sede centrale <br /> Ci puoi trovare qui:
+	</h4>
+
+	<p>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11189.053284829995!2d9.196682889617296!3d45.484641915617324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6c4da998857%3A0xdf23efee88ae846f!2sCentral%20Station%20area%2C%20Milan%2C%20Metropolitan%20City%20of%20Milan!5e0!3m2!1sen!2sit!4v1570443903961!5m2!1sen!2sit"
+			width="400" height="300"  style="border: 0;"
+			></iframe>
+	</p>
+
+	<p>
+		<b>Per confermare l'ordine del tuo ticket:</b>
+	</p>
+
+	<ol>
+    <li>Assicurati di aver effettuato il log-in col tuo userID al sito </li>
+    <li>Conferma il tuo ordine completanto il form di prenotazione titoli di viaggio</li>
+    <li>Scegli il metodo di pagamento e stampa il tuo titolo</li>
+    </ol>
+	<p></p>
+</body>
+</html>
