@@ -1,20 +1,36 @@
-
 input {
-	color: blue;
+	color: black;
+	font-family: book-antiqua;
 }
 
 .content {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: book-antiqua;
 	margin: 40px auto;
-	background-image : url("/Oved266Red/pic/sfondo.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	width: 100%;
-	max-width:960px;
+	max-width: 960px;
 	border-radius: 5px;
-	padding-bottom:32px;
-	
+	padding-bottom: 32px;
+}
+
+div {
+	font-family: book-antiqua;
+	color: black;
+}
+
+h1, h2, h3 {
+	color: white;
+	font-family: book-antiqua;
+}
+
+h3 {
+	font-style: italic;
+}
+
+#grid {
+	background-color: red;
 }
