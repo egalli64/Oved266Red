@@ -1,13 +1,12 @@
 input {
 	color: black;
+	font-family: book-antiqua;
 }
 
 .content {
-	
 	text-align: center;
 	font-family: book-antiqua;
 	margin: 40px auto;
-	background-image: url("/Oved266Red/pic/sfondoIndex.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -17,16 +16,21 @@ input {
 	border-radius: 5px;
 	padding-bottom: 32px;
 }
-div{
-		font-family: book-antiqua;
-		color:white;
+
+div {
+	font-family: book-antiqua;
+	color: black;
 }
 
 h1, h2, h3 {
-	font-family: book-antiqua;
 	color: white;
+	font-family: book-antiqua;
 }
 
-#psw {
-	color: white;
+h3 {
+	font-style: italic;
+}
+
+#grid {
+	background-color: red;
 }
