@@ -12,6 +12,10 @@
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+
+<script src="/Oved266Red/js/logIn.js"></script>
+<script src="/Oved266Red/js/function.js"></script>
+
 <!-- <script src="/Oved266Red/WebContent/js/milanoTabella.jsp"></script> -->
 </head>
 <body class="content">
@@ -32,16 +36,59 @@
 		<div class="row">
 			<div class="col">
 				<span id=buttons>
-					<button type="button" class="btn btn-outline-danger">Log
-						in</button>
-					<button type="button" class="btn btn-outline-danger">Travel
-						with us</button>
+
+					<form>
+						<div>
+							<button type="button" class="btn btn-outline-danger parentNode">Log
+								in</button>
+
+
+						</div>
+
+						<br>
+						<div>
+							<div class="login-reg-panel childNode">
+								<div class="login-info-box">
+									<label id="label-register" for="log-reg-show">Login</label> <input
+										type="radio" name="active-log-panel" id="log-reg-show"
+										checked="checked">
+								</div>
+
+								<div class="register-info-box">
+									<h2>Don't have an account?</h2>
+
+									<a href="/Oved266Red/registartionPage.html"> <label
+										id="label-login" for="log-login-show">Register</label> <input
+										type="radio" name="active-log-panel" id="log-login-show"></a>
+								</div>
+
+								<div class="white-panel">
+									<div class="login-show">
+										<span id=login>LOGIN </span> <input type="text"
+											placeholder="Email"> <input type="password"
+											placeholder="Password"> <input type="button"
+											value="Login"> <a href="">Back &lArr; </a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</form> 
+				
+				<a href="/Oved266Red/ticket.html">
+						<button type="button" class="btn btn-outline-danger">Travel
+							with us</button>
+				</a>
+
+				<a href="/Oved266Red/priority.html">
 					<button type="button" class="btn btn-outline-danger">About
-						us</button>
+						us</button></a>
 				</span>
 			</div>
 		</div>
 	</div>
+
+	<br>
 	<div class=part2>
 		<span id=header3> Viaggia con noi in questi meravigliosi luoghi
 			<br>
