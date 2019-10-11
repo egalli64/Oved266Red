@@ -1,7 +1,8 @@
-
+body{
+	font-family: 'Architects Daughter', cursive !important;
+}
 .content {
 	text-align: center;
-	font-family: book-antiqua;
 	margin: 40px auto;
 	width: 100%;
 	border-radius: 5px;
@@ -10,7 +11,6 @@
 
 #head1, #head2, #subhead {
 	font-size: 40px;
-	font-family: book-antiqua;
 	color: white;
 	font-style: italic;
 text-align: center;
@@ -23,5 +23,4 @@ text-align: center;
 
 input {
 	color: black;
-	font-family: book-antiqua;
 }
