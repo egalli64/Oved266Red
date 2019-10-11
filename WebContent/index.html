@@ -4,8 +4,6 @@
 <meta charset="UTF-8">
 <title>Red's Train</title>
 
-<link rel="stylesheet" type="text/css" href="/Oved266Red/css/form.css">
-
 <link rel="stylesheet" type="text/css" href="/Oved266Red/css/index.css" />
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script
@@ -14,12 +12,10 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="/Oved266Red/js/function.js"></script>
 <script src="/Oved266Red/js/form.js"></script>
-
 <script src="/Oved266Red/js/logIn.js"></script>
 <script src="/Oved266Red/js/function.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet"> 
 <!-- <script src="/Oved266Red/WebContent/js/milanoTabella.jsp"></script> -->
 
 </head>
@@ -27,64 +23,47 @@
 
 <body class="content">
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col">
 				<span id=head1>RED IN ITALY </span> <span id=head2>∼travel in
 					comfort∼</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<span id=subhead>Trust us, you will not regret it &hearts;
+<br>
+				<span id=subhead>Trust us, you will not regret it &hearts; </span>
+					<br>
+					<span id=subhead>
 					For <b>us</b> you are <b>important</b>!
 				</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<span id=buttons> <a href="/Oved266Red/ticket.html">
-						<button type="button" class="btn btn-outline-danger">Travel
+	</div>
+	<br>
+				 <a href="/Oved266Red/ticket.html">
+						<button id=button2 type="button" class="btn btn-outline-danger">Travel
 							with us</button>
 				</a> <a href="/Oved266Red/aboutUs.html">
-						<button type="button" class="btn btn-outline-danger">About
+						<button id=button3 type="button" class="btn btn-outline-danger">About
 							us</button>
 				</a>
-				</span>
-			</div>
-		</div>
-	</div>
+		
+		
+
 
 
 
 	<!------ Include the above in your HEAD tag ---------->
 
 	<form>
-		<button type="button" class="btn btn-outline-danger parentNode">Log
+		<button id=button1 type="button" class="btn btn-outline-danger parentNode">Log
 			in</button>
 		<div class="login-reg-panel childNode" style="">
-			<div class="login-info-box">
-				<h2>LOGIN</h2>
-				<input type="text" placeholder="Email"> <input
-					type="password" placeholder="Password"> <input
-					type="button" value="Login"> <a href="">Back</a>
-			</div>
-
 			<div class="register-info-box">
 				<h2>Don't have an account?</h2>
-				<p>Lorem ipsum dolor sit amet</p>
-				<label id="label-login" for="log-login-show">Register</label> <input
-					type="radio" name="active-log-panel" id="log-login-show">
+				<a href="/Oved266Red/registration.html"><input
+					type="button" value="Register"></a>
 			</div>
 
 			<div class="white-panel">
-				<div class="login-show"></div>
-				<div class="register-show">
-					<h2>REGISTER</h2>
-					<input type="text" placeholder="Email"> <input
-						type="password" placeholder="Password"> <input
-						type="password" placeholder="Confirm Password"> <input
-						type="button" value="Register">
-				</div>
+				<h2>LOGIN</h2>
+				<input type="text" placeholder="Email"> <input
+					type="password" placeholder="Password">  <a href=""><input
+					type="button" value="Login"></a> <a href="">Back</a>
+
 			</div>
 		</div>
 	</form>
