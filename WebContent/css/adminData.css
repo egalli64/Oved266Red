@@ -1,4 +1,4 @@
-body{
+body {
 	font-family: 'Architects Daughter', cursive !important;
 }
 
@@ -24,11 +24,18 @@ input {
 	font-style: italic;
 }
 
+.title{
+	padding-top: 10px;
+	
+}
 
 table {
 	border: 2px solid black;
 	border-collapse: collapse;
-	width: 100%
+	width: 80%;
+	
+	margin-left: 150px;
+	margin-top: 100px;
 }
 
 td, th {
@@ -45,9 +52,13 @@ td {
 	background-color: silver;
 }
 
-#newus{
-	position:absolute;
+#newus {
+	position: absolute;
 	left: 1400px;
+	
 }
 
- @charset "ISO-8859-1";
+.create{
+	margin-bottom: 50px;
+}
+@charset "ISO-8859-1";
