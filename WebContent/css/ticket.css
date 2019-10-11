@@ -1,3 +1,4 @@
+
 .content {
 	text-align: center;
 	font-family: book-antiqua;
@@ -7,32 +8,20 @@
 	padding-bottom: 32px;
 }
 
-
-input {
-	color: black;
-	font-family: book-antiqua;
-}
-
-.container-fluid {
-	background: #D9534F;
-}
- 
-#head1, #head2 {
+#head1, #head2, #subhead {
 	font-size: 40px;
 	font-family: book-antiqua;
 	color: white;
 	font-style: italic;
+text-align: center;
 }
 
-#subhead {
-	font-size: 30px;
-	font-family: book-antiqua;
-	color: white;
-	font-style: italic;
+.container-fluid {
+	background: #df0000;
 }
 
-#header3 {
-	font-size: 30px;
-	font-family: book-antiqua;
+
+input {
 	color: black;
+	font-family: book-antiqua;
 }
