@@ -1,243 +1,126 @@
+body{
+	font-family: 'Architects Daughter', cursive !important;
+}
+
 input {
 	color: black;
-	font-family: book-antiqua;
 }
 
 .content {
-	text-align: left;
-	font-family: book-antiqua;
+	text-align: center;
 	margin: 40px auto;
 	width: 100%;
 	border-radius: 5px;
 	padding-bottom: 32px;
 }
 
-#head1, #head2 {
+#head1, #head2, #subhead {
 	font-size: 40px;
-	font-family: book-antiqua;
 	color: white;
 	font-style: italic;
 }
 
-#subhead {
-	font-size: 30px;
-	font-family: book-antiqua;
-	color: white;
-	font-style: italic;
-}
 
 #header3 {
 	font-size: 30px;
-	font-family: book-antiqua;
 	color: black;
 }
-
-#buttons {
+#button1 {
 	position: absolute;
-	left: 800px;
-	font-family: book-antiqua;
-	font-size: 20px;
+	left: 1000px;
+	font-size: 15px;
+}
+#button2 {
+	position: absolute;
+	left: 1072px;
+	font-size: 15px;
+}
+#button3 {
+	position: absolute;
+	left: 1200px;
+	font-size: 15px;
 }
 
 .part2 {
 	margin: 40px auto;
 	max-width: 960px;
 	text-align: center;
-	font-family: book-antiqua;
+
 	font-size: 40px;
 	font-weight: bold;
 }
 
 .btn-outline-danger {
 	font-style: italic;
-	font-family: Book Antiqua;
+
 }
 
 .container-fluid {
-	background: #D9534F;
+	background: #df0000;
 }
 
 .city {
 	font-size: 40px;
-	font-family: book-antiqua;
-	color: black;
-}
-
-a {
-	text-decoration: none;
-	color: #444444;
-}
-
-.login-reg-panel {
-	position: relative;
-	top: 50%;
-	transform: translateY(20%);
-	text-align: center;
-	width: 70%;
-	right: 0;
-	left: 0;
-	margin: auto;
-	height: 400px;
-	background-color: rgba(255, 0, 0, 0.9);
-	
-}
-
-.white-panel {
-	background-color: rgba(255, 255, 255, 1);
-	height: 500px;
-	position: absolute;
-	top: -50px;
-	width: 50%;
-	right: calc(50% - 50px);
-	transition: .3s ease-in-out;
-	z-index: 0;
-	box-shadow: 0 0 15px 9px #00000096;
-}
-
-.register-info-box {
-	width: 30%;
-	padding: 0 50px;
-	top: 20%;
-	right: 0;
-	position: absolute;
-	text-align: left;
-}
-
-
-.login-reg-panel input[type="radio"] {
-	position: relative;
-	display: none;
-}
-
-.login-reg-panel {
-	color: #B8B8B8;
-}
-
-
-.login-reg-panel #label-login, .login-reg-panel #label-register {
-	border: 1px solid #9E9E9E;
-	padding: 5px 5px;
-	width: 150px;
-	display: block;
-	text-align: center;
-	border-radius: 10px;
-	cursor: pointer;
-	font-weight: 600;
-	font-size: 18px;
-}
-
-
-.login-info-box {
-	width: 30%;
-	padding: 0 50px;
-	top: 20%;
-	left: 0;
-	position: absolute;
-	text-align: left;
 	color: black;
 }
 
 
-.right-log {
-	right: 50px !important;
+
+
+.login-reg-panel{
+    position:relative;
+    top: 50%;
+    transform: translateY(20%);
+	text-align:center;
+    width:70%;
+	right:0;left:0;
+    margin:auto;
+    height:400px;
+    background: #df0000;
+}
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height:500px;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+}
+
+.login-reg-panel input[type="radio"]{
+    position:absolute;
+    display:none;
+}
+.white-panel{
+    color:#000000;
 }
 
 
-.login-show, .register-show {
-	z-index: 1;
-	display: none;
-	opacity: 0;
-	transition: 0.3s ease-in-out;
-	color: #242424;
-	text-align: left;
-	padding: 50px;
+.register-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:fixed;
+    text-align:center;
+    color:#ffffff;
+    
 }
 
+.right-log{right:50px !important;}
 
-.show-log-panel {
-	display: block;
-	opacity: 0.9;
+.show-log-panel{
+    display:block;
+    opacity:0.9;
 }
 
-
-.login-show input[type="text"], .login-show input[type="password"] {
-	width: 100%;
-	display: block;
-	margin: 20px 0;
-	padding: 15px;
-	border: 1px solid #b5b5b5;
-	outline: none;
+a{
+  text-decoration:none;
+  color:#2c7715;
 }
-
-
-#login {
-	font-size:60px;
-	color: black;
-	font-family: book-antiqua;
-}
-
-
-.login-show input[type="button"] {
-	max-width: 150px;
-	width: 100%;
-	background: #444444;
-	color: #f9f9f9;
-	border: none;
-	padding: 10px;
-	text-transform: uppercase;
-	border-radius: 2px;
-	float: left;
-	cursor: pointer;
-}
-
-
-.login-show a {
-	display: inline-block;
-	padding: 10px 0;
-	float: right;
-}
-
-
-.register-show input[type="text"], .register-show input[type="password"]
-	{
-	width: 100%;
-	display: block;
-	margin: 20px 0;
-	padding: 15px;
-	border: 1px solid #b5b5b5;
-	outline: none;
-}
-
-.register-show input[type="button"] {
-	max-width: 150px;
-	width: 100%;
-	background: #444444;
-	color: #f9f9f9;
-	border: none;
-	padding: 10px;
-	text-transform: uppercase;
-	border-radius: 2px;
-	float: right;
-	cursor: pointer;
-}
-
-
-a {
-	text-decoration: none;
-	color: #ff0000;
-}
-
-.credit {
-	position: absolute;
-	bottom: 10px;
-	left: 10px;
-	color: #3B3B25;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	z-index: 99;
-}
+    
+    
+    
