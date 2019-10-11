@@ -1,5 +1,5 @@
 body{
-	font-family: 'Architects Daughter', cursive !important;
+	font-family: 'Aref Ruqaa', serif !important;
 }
 
 input {
@@ -25,6 +25,11 @@ input {
 	font-size: 30px;
 	color: black;
 }
+.form{
+	margin-bottom: 60px; 
+
+}
+
 #button1 {
 	position: absolute;
 	left: 1000px;
