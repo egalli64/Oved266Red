@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Red's Train</title>
+
+<link rel="stylesheet" type="text/css" href="/Oved266Red/css/form.css">
+
 <link rel="stylesheet" type="text/css" href="/Oved266Red/css/index.css" />
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script
@@ -11,9 +14,17 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="/Oved266Red/js/function.js"></script>
+<script src="/Oved266Red/js/form.js"></script>
+
+<script src="/Oved266Red/js/logIn.js"></script>
+<script src="/Oved266Red/js/function.js"></script>
 
 <!-- <script src="/Oved266Red/WebContent/js/milanoTabella.jsp"></script> -->
+
 </head>
+
+
 <body class="content">
 	<div class="container-fluid">
 		<div class="row">
@@ -32,16 +43,58 @@
 		<div class="row">
 			<div class="col">
 				<span id=buttons>
-					<button type="button" class="btn btn-outline-danger">Log
-						in</button>
-					<button type="button" class="btn btn-outline-danger">Travel
-						with us</button>
+
+					
+				<a href="/Oved266Red/ticket.html">
+						<button type="button" class="btn btn-outline-danger">Travel
+							with us</button>
+				</a>
+
+				<a href="/Oved266Red/priority.html">
 					<button type="button" class="btn btn-outline-danger">About
-						us</button>
+						us</button></a>
 				</span>
 			</div>
 		</div>
 	</div>
+
+
+
+	<!------ Include the above in your HEAD tag ---------->
+
+	<form>
+		<button type="button" class="btn btn-outline-danger parentNode">Log
+			in</button>
+		<div class="login-reg-panel childNode" style="">
+			<div class="login-info-box">
+				<h2>LOGIN</h2>
+				<input type="text" placeholder="Email"> <input
+					type="password" placeholder="Password"> <input
+					type="button" value="Login"> <a href="">Back</a>
+			</div>
+
+			<div class="register-info-box">
+				<h2>Don't have an account?</h2>
+				<p>Lorem ipsum dolor sit amet</p>
+				<label id="label-login" for="log-login-show">Register</label> <input
+					type="radio" name="active-log-panel" id="log-login-show">
+			</div>
+
+			<div class="white-panel">
+				<div class="login-show"></div>
+				<div class="register-show">
+					<h2>REGISTER</h2>
+					<input type="text" placeholder="Email"> <input
+						type="password" placeholder="Password"> <input
+						type="password" placeholder="Confirm Password"> <input
+						type="button" value="Register">
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<br>
+
 	<div class=part2>
 		<span id=header3> Viaggia con noi in questi meravigliosi luoghi
 			<br>
