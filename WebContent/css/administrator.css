@@ -1,0 +1,34 @@
+input {
+	color: black;
+	font-family: book-antiqua;
+}
+
+.content {
+	text-align: left;
+	font-family: book-antiqua;
+	margin: 40px auto;
+	width: 100%;
+	border-radius: 5px;
+	padding-bottom: 32px;
+}
+
+#head1, #head2 {
+	font-size: 40px;
+	font-family: book-antiqua;
+	color: white;
+	font-style: italic;
+}
+#subhead {
+	font-size: 30px;
+	font-family: book-antiqua;
+	color: white;
+	font-style: italic;
+}
+.container-fluid {
+	background: #D9534F;
+}
+.adminLog {
+	text-align: center;
+	font-family: book-antiqua;
+	
+}
